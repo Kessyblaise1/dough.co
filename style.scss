@@ -1,0 +1,19 @@
+$theme-colors: (
+    "primary": #FE707B,
+    "secondary": #FCE9E6,
+); 
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.nav-link{
+    font-size: 14px;
+}
