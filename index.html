@@ -15,49 +15,50 @@
 </head>
 <body class="bg-secondary">
     
-    <nav class="navbar navbar-white bg-white m-4 rounded">
-        <div class="container-fluid px-4">
-          <a class="navbar-brand text-black fw-bold">dough co<span class="text-primary">.</span></a>
-
-         
-
-          <div class="d-flex">
-            <ul class="navbar-nav flex-row mx-3 space-between">
-                <li class="nav-item px-2">
-                    <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link text-dark" href="#">Features</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link text-dark" href="#">Pricing</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link text-dark">Disabled</a>
-                </li>
-            </ul>
-
-            <button class="btn btn-outline-primary" type="submit">Order Now</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-lg-4 rounded w-xs-100 px-2">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">dough co<span class="text-primary">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-3">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#">Doughnuts</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Teams</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary">Order Now</button>
+                </div>
           </div>
         </div>
     </nav>
 
     <main>
-        <div class="row w-100 px-5 ">
-            <div class="col-6 d-flex align-middle justify-content-center">
-                <div class="d-flex flex-column justify-content-center mx-3">
-                    <img class="d-block my-2 p-2 border border-primary bg-white rounded-circle" src="./dist/images/smalldough.png" alt="doughnut">
-                    <img class="d-block my-2 p-2 bg-white rounded-circle" src="./dist/images/small2.png" alt="doughnut">
-                    <img class="d-block my-2 p-2 bg-white rounded-circle" src="./dist/images/Imagesmall3.png" alt="doughnut">
+        <div class="row container-fluid px-lg-5 ">
+            <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                <div class="d-flex flex-column justify-content-center mx-lg-3">
+                    <img class="d-block mx-2 my-2 p-2 border border-primary bg-white rounded-circle" src="./dist/images/smalldough.png" alt="doughnut">
+                    <img class="d-block mx-2 my-2 p-2 bg-white rounded-circle" src="./dist/images/small2.png" alt="doughnut">
+                    <img class="d-block mx-2 my-2 p-2 bg-white rounded-circle" src="./dist/images/Imagesmall3.png" alt="doughnut">
                 </div>
-                <div class="featured mx-3">
-                    <img src="./dist/images/Featured Image.png"  alt="doughnut">
+                <div class="featured mx-lg-3 ">
+                    <img src="./dist/images/Featured Image.png" class="img-fluid" alt="doughnut">
                 </div>
             </div>
 
-            <div class="col-6 d-flex flex-column align-items-center justify-content-center">
-                <div class="w-75 px-3">
-                    <h1 class="fw-bold text-primary mb-4">Strawberry Iced With Sprinkles</h1>
+            <div class="col-sm-12 col-lg-6 d-flex flex-column align-items-center justify-content-center">
+                <div class="container-fluid w-lg-75 px-lg-3 mx-lg-3">
+                    <h1 class="fw-bold text-primary my-4 my-lg-0 mb-lg-4">Strawberry Iced With Sprinkles</h1>
                     <p class="fw-bold">Our glazed doughnut is dipped in strawberry icing and topped with festive rainbow sprinkles.</p>
 
                     <div class="d-flex ">
@@ -79,9 +80,13 @@
                         </div>
                     </div>
 
-                    <div class="w-100 d-flex justify-content-between align-items-center">
-                        <div class="bg-white text-primary fw-bold px-2 py-2 mt-3"><span>-</span> <span class="px-3">1</span> <span>+</span></div>
-                        <button class="btn btn-primary text-white rounded w-75 py-2 text-small mt-3">Add To Cart</button>
+                    <div class="container-fluid d-flex row justify-content-between align-items-center">
+                        <div class="col-md-3 bg-white text-primary fw-bold p-2 d-flex justify-content-between">
+                            <span class="d-block">-</span> <span class="d-block px-3">1</span> <span class="d-block">+</span>
+                        </div>
+                        <div class="col-md-9">
+                            <button class="btn btn-primary text-white rounded w-100 py-2 text-small">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
